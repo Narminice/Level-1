@@ -1,0 +1,13 @@
+3. Ədədin kvadratı və kubu
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x;
+    cout << "Bir eded daxil edin: ";
+    cin >> x;
+    cout << "Kvadrati: " << pow(x, 2) << endl;
+    cout << "Kubu: " << pow(x, 3) << endl;
+    return 0;
+}

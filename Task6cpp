@@ -1,0 +1,11 @@
+6. Üç ədədin ortalaması
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cout << "Uc eded daxil edin: ";
+    cin >> a >> b >> c;
+    cout << "Ortalama: " << (a + b + c) / 3 << endl;
+    return 0;
+}

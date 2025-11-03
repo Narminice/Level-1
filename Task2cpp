@@ -1,0 +1,17 @@
+2. İki tam ədədin cəmi, fərqi, hasili və bölməsi
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b;
+    cout << "Iki eded daxil edin: ";
+    cin >> a >> b;
+    cout << "Cem: " << a + b << endl;
+    cout << "Ferq: " << a - b << endl;
+    cout << "Hasil: " << a * b << endl;
+    if (b != 0)
+        cout << "Bolme: " << a / b << endl;
+    else
+        cout << "0-a bolmek olmaz!" << endl;
+    return 0;
+}

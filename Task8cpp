@@ -1,0 +1,12 @@
+8. Kvadratın sahəsi və perimetri
+#include <iostream>
+using namespace std;
+
+int main() {
+    double teref;
+    cout << "Kvadratin terefini daxil edin: ";
+    cin >> teref;
+    cout << "Sahesi: " << teref * teref << endl;
+    cout << "Perimetri: " << 4 * teref << endl;
+    return 0;
+}

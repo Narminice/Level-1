@@ -1,0 +1,14 @@
+4. Dairənin sahəsi və çevrəsi
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double r;
+    const double PI = 3.14159;
+    cout << "Dairenin radiusunu daxil edin: ";
+    cin >> r;
+    cout << "Sahesi: " << PI * r * r << endl;
+    cout << "Cevresi: " << 2 * PI * r << endl;
+    return 0;
+}

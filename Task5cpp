@@ -1,0 +1,12 @@
+5. Selsi ↔ Farenheit çevirmə
+#include <iostream>
+using namespace std;
+
+int main() {
+    double c, f;
+    cout << "Selsi daxil edin: ";
+    cin >> c;
+    f = (c * 9 / 5) + 32;
+    cout << "Farenheit: " << f << endl;
+    return 0;
+}
